@@ -30,4 +30,4 @@ jobs:
         run: |
           ./gradlew :module-2:publish
         env:
-          GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
